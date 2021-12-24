@@ -5,7 +5,7 @@ import time
 import csv
 
 START_URL = 'https://en.wikipedia.org/wiki/List_of_brightest_stars_and_other_record_stars'
-browser = wd.Chrome("C:/Users/Yagya Jha/Desktop/YAGYA KA KAAM/White Hat Jr. all work/Module 3/Projects/Project 127/chromedriver/chromedriver.exe")
+browser = wd.Chrome("./chromedriver/chromedriver.exe")
 
 browser.get(START_URL)
 time.sleep(10)
